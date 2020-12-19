@@ -1,0 +1,191 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Overpass', sans-serif;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .seller-form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-item {
+        display: flex;
+        align-items: center;
+    }
+    
+    .drop-down-form {
+        display: none;
+        background-color: rgb(230, 236, 240);
+        margin-left: 2%;
+        width: 50%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+    .form-title {
+        margin-top: 10px;
+        margin-left: 3%;
+        font-size: 20px;
+    }
+    
+    .label-form {
+        margin-left: 3%;
+        width: 31%;
+    }
+    
+    .input-form {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 3%;
+        width: 60%;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    #submit-form {
+        margin-left: 3%;
+    }
+    
+    .allProducts {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        padding-top: 70px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .product-img {
+        width: 90%;
+        border-radius: 15px;
+        padding: 8px;
+        height: 176px;
+    }
+    
+    .product-category-div {
+        font-size: 20px;
+        padding-top: 10px;
+        text-align: center;
+        color: #595b83;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .product {
+        width: 200px;
+        margin-left: 10px;
+        height: 340px;
+        padding: 2px;
+        box-sizing: border-box;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #595b83;
+        border-radius: 9px;
+    }
+    
+    .product-content-span {
+        font-weight: 1000;
+        color: #595b83;
+    }
+    
+    .data {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+    }
+    
+    .seller-btn {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    
+    .edit-div {
+        display: flex;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 8px;
+        flex-direction: column;
+        z-index: 999;
+        background-color: rgb(230, 236, 240);
+    }
+    
+    .delete-btn,
+    .edit-btn,
+    #add,
+    #submit-form,
+    .editSubmit {
+        border: solid 1px #f5dbe6;
+        background-color: white;
+        outline: none;
+        border-radius: 35px;
+        width: 40%;
+        height: 30px;
+        color: #595b83;
+    }
+    
+    .editSubmit {
+        margin-top: 10px;
+    }
+    
+    #submit-form {
+        margin-top: 1spx;
+        font-size: 16px;
+        height: 25px;
+        background-color: white;
+    }
+    
+    #add {
+        border: none;
+        margin-top: 100px;
+        width: 24%;
+        margin-bottom: 4px;
+        font-size: 18px;
+        background-color: rgb(230, 236, 240);
+    }
+    
+    .submitForm {
+        margin-top: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Containers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .addStatement {
+        display: none;
+        margin: 100px auto;
+        text-align: center;
+        align-items: center;
+        border: 1px solid #f5dbe6;
+        font-size: 28px;
+        border-radius: 5px;
+        width: 600px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    
+    .add-p {
+        padding: 20px;
+    }

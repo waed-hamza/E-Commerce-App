@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/23bea62652.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" href="./../Assets/images/e-app.png">
+    <link rel="stylesheet" href="./../Assets/css/customer.css">
+    <link rel="stylesheet" href="./../Assets/css/products.css">
+    <link rel="stylesheet" href="./../Assets/css/header.css">
+    <title>Customer</title>
+</head>
+
+<body>
+
+    <div id="root">
+
+        <!-- Header Section -->
+        <header>
+            <div class="header-div">
+                <div class="header--div">
+                    <div class="header---div">
+                        <!-- App Name -->
+                        <a class="header-div-name" href="./../index.html">
+                            <h2 class="header-h2-name">
+                                <span>E-commerce T3</span>
+                            </h2>
+                        </a>
+                        <!-- Search Bar -->
+                        <div class="header-div-search">
+                            <form action="#" class="search-form">
+                                <div class="search-form-div">
+                                    <div class="search-form--div">
+                                        <!-- Search Icon -->
+                                        <div class="search-icon-div">
+                                            <i class="fa--search fa fa-search" aria-hidden="true"></i>
+                                        </div>
+                                        <!-- Search Content -->
+                                        <div class="search-content-div hide-search">
+                                          <input 
+                                          type="text" 
+                                          class="search-content-input" 
+                                          id="search-input" 
+                                          placeholder="Search E-commerce App"
+                                          title="Type in a product name">
+                                          <ul id="suggestions-list">
+                                          </ul> 
+                                        </div>     
+                                        <!-- Times Icon -->
+                                        <div class="search-times-icon">
+                                            <i class="fa--times fa fa-times" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="header-btns-div">
+                            <!-- Btn 1 -->
+                            <div class="header-btns--div btn1-customer">
+                                <a href="#" class="header-btns-a">
+                                    <div class="header-btns-a-div">
+                                        <span>Customer</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Btn 2 -->
+                            <div class="header-btns--div">
+                                <a href="./../html/seller.html" class="header-btns-a">
+                                    <div class="header-btns-a-div">
+                                        <span>Seller</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Cart Icon -->
+                        <div class="header-div-cart">
+                            <div class="header-div--cart">
+                                <a href="./../html/cart.html">
+                                    <i class="fa--cart fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+
+        <!-- Main Section -->
+        <main>
+            <div class="main-container">
+                <!-- Filter & Display Container -->
+                <div class="filters-container">
+                    <!-- filter -->
+                    <div class="filter-div">
+                        <h3 class="filter-h3">
+                            <span>Filters</span>
+                        </h3>
+                        <div class="filter--div">
+                            <label for="filter">
+                        <input type="radio" name="filter" value="low" class="filter-radio">
+                        Price: Low → High
+                        </label>
+                            <label for="filter">
+                            <input type="radio" name="filter" value="high" class="filter-radio">
+                            Price: High → Low
+                            </label>
+                        </div>
+                    </div>
+                    <!-- Display -->
+                    <div class="display-div">
+                        <div class="display-list-div" title="Filter Items by category">
+                            <i class="fa--list fa fa-sliders" aria-hidden="true">
+                          <!-- Invisible dropdown -->
+                          <div id="myDropdown" class="dropdown-content">
+                          </div>
+                        </i>
+                        </div>
+                        <div class="display-list-div" title="Display items as a list">
+                            <i class="fa--list fa fa-list-ul" aria-hidden="true"></i>
+                        </div>
+                        <div class="display-list-div" title="Display Items as a Grid">
+                            <i class="fa--list fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Container -->
+                <div class="products-container">
+                </div>
+            </div>
+        </main>
+        </div>
+
+        <script src="./../Assets/js/customer.js"></script>
+</body>
+
+</html>

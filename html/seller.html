@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../Assets/css/header.css" />
+    <link rel="stylesheet" href="./../Assets/css/seller-style.css" />
+    <link rel="icon" href="./../Assets/images/e-app.png">
+
+    <title>Ecommerce APP</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-div">
+            <div class="header--div">
+                <div class="header---div">
+                    <!-- App Name -->
+                    <a class="header-div-name" href="./../index.html">
+                        <h2 class="header-h2-name">
+                            <span>E-commerce T3</span>
+                        </h2>
+                    </a>
+                    <!-- Search Bar -->
+                    <div class="header-div-search">
+                        <form action="#" class="search-form">
+                            <div class="search-form-div">
+                                <div class="search-form--div">
+                                    <!-- Search Icon -->
+                                    <div class="search-icon-div">
+                                        <i class="fa--search fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                    <!-- Search Content -->
+                                    <div class="search-content-div">
+                                        <input type="text" class="search-content-input" name="#" id="#" placeholder="Search E-commerce App">
+                                    </div>
+                                    <!-- Times Icon -->
+                                    <div class="search-times-icon">
+                                        <i class="fa--times fa fa-times" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Buttons -->
+                    <div class="header-btns-div">
+                        <!-- Btn 1 -->
+                        <div class="header-btns--div">
+                            <a href="./../html/customer.html" class="header-btns-a">
+                                <div class="header-btns-a-div">
+                                    <span>Customer</span>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Btn 2 -->
+                        <div class="header-btns--div">
+                            <a href="./../html/seller.html" class="header-btns-a">
+                                <div class="header-btns-a-div">
+                                    <span>Seller</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="addStatement"></div>
+    <div class="Containers">
+        <button id="add">Add Product</button>
+        <div class="drop-down-form">
+            <form class="seller-form">
+                <h1 class="form-title">Add Product</h1>
+                <div class="form-item">
+                    <label class="label-form" for="name">Product Name :</label>
+                    <input required="" class="input-form" id="input-name" type="text" placeholder="Enter Product Name" name="name"></div>
+                <div class="form-item">
+                    <label class="label-form" for="detail">details :</label>
+                    <input required="" class="input-form" id="input-detail" type="text" placeholder="Enter Product details" name="detail"></div>
+                <div class="form-item">
+                    <label class="label-form" for="price"> price:</label>
+                    <input required="" class="input-form" id="input-price" type="text" placeholder="Enter Product Price" name="price"></div>
+                <div class="form-item">
+                    <label class="label-form" for="image">Product image:</label>
+                    <input required="" class="input-form" id="input-image" type="text" placeholder="Enter Product image" name="image"></div>
+                <div class="form-item">
+                    <label class="label-form" for="category">Product Category :</label>
+                    <select class="input-form" id="input-category">
+                    <option value="man">Man</option>
+                    <option value="women">Women</option>
+                    <option value="children">Children</option>
+                    <option value="bags">Bags</option>
+                    <option value="dresses">Dresses</option>
+                    <option value="shoes">shoes</option>
+                    <option value="clothes">clothes</option>
+                    <option value="phones">phones</option>
+
+                     
+                    
+             </select></div>
+                <div class="submitForm">
+                    <input id="submit-form" value="submit" type="submit"></form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="allProducts">
+
+    </div>
+
+
+    <script src="./../Assets/js/seller-script.js"></script>
+
+</body>
+
+</html>

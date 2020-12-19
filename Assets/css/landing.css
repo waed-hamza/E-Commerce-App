@@ -1,0 +1,309 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  overflow-y: scroll;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.p-div{
+  padding-left: 90px;
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-h1{
+  color: #060930;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.p-h3{
+  color: #060930;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.p-p{
+  color: #060930;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.btn-div-landing{
+  width: 80%;
+  height: 20%;
+}
+
+.btn-div--landing{
+  width: 50%;
+}
+
+.btn-a-landing{
+  height: 100%;
+  border-radius: 999px;
+  border-width: 2px;
+}
+
+.btn-a--landing{
+  padding: 15px;
+}
+
+.landing-img{
+  display: flex;
+  align-items: center;
+}
+
+.landing{
+  width: 600px;
+  height: 500px;
+}
+
+
+/* Section 2 */
+.option{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 550px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: rgb(253, 157, 195, 0.2);
+}
+
+.customer,.seller{
+  width: 30%;
+  height: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 9px;
+  border-color:  #595b83;
+}
+
+.customer h1,.seller h1{
+  font-size: 40px;
+  color:  #060930;
+  text-align: center;
+}
+
+
+.customer-btn,.seller-btn{
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 10px;
+  border-color: #595b83;
+  color:  #060930;
+  margin-top: 50px;
+  padding: 5px  10px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+.customer-btn:hover,.seller-btn:hover{
+  background-color:#595b83 ;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.footer {
+  color: #060930;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #bbbbbb;
+}
+
+
+/* Section3: About The Team */
+.container2{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.row{
+  display: flex;
+}
+
+
+
+.col-about{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-self: center;
+}
+
+.col-about h2{
+  font-size: 35px;
+}
+
+.team-member{
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 56px;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.about{
+  color: #060930;
+  padding-top: 112px;
+  padding-bottom: 64px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.about h2{
+  margin-bottom: 16px;
+}
+
+.p-about{
+  margin-bottom: 62px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #060930;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-wrapper{
+  margin-bottom: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-fluid2:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.p-team{
+  color: #060930;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+.job-title{
+  color: #060930;
+  margin-bottom: 6px;
+}
+
+.fa-stack{
+  margin-top: 6px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 14px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fa-stack-2x{
+  color: #595b83;
+  font-size: 30px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* CopyRight */
+.copyright{
+  padding-top: 16px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+.col-copyright{
+  position: relative;
+  width: 100%;
+}
+
+.p-copyright{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  opacity: 0.7;
+  border-top: 1px solid #c4d8dc;
+}
+
+
+
+/* Media Queries */
+@media(max-width: 1000px){
+  .header---div{
+    justify-content: space-around;
+  }
+
+  .header-btns-div{
+    justify-content: flex-end;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+  
+  .p-div{
+    width: 65%;
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .landing-img{
+    width: 70%;
+  }
+
+  .option{
+    flex-direction: column;
+  }
+
+  .customer{
+    margin-bottom: 20px;
+  }
+
+  .customer, .seller{
+    width: 50%;
+  }
+  
+  .btn-div--landing{
+    width: 70%;
+  }
+}
