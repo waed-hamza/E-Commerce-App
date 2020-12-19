@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./../Assets/css/cart.css">
+  <link rel="stylesheet" href="./../Assets/css/products.css">
+  <link rel="stylesheet" href="./../Assets/css/header.css">
+  <link rel="stylesheet" href="./../Assets/css/customer.css">
+  <script src="https://use.fontawesome.com/23bea62652.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="icon" href="./../Assets/images/e-app.png">
+  <title>Cart</title>
+</head>
+<body>
+  <div id="root">
+
+    <!-- Header Section -->
+    <header>
+      <div class="header-div">
+        <div class="header--div">
+          <div class="header---div">
+            <!-- App Name -->
+            <a class="header-div-name" href="./../index.html">
+              <h2 class="header-h2-name">
+                <span>E-commerce T3</span>
+              </h2>
+            </a>
+            <!-- Search Bar -->
+            <div class="header-div-search">
+              <form action="#" class="search-form">
+                <div class="search-form-div">
+                  <div class="search-form--div">
+                    <!-- Search Icon -->
+                    <div class="search-icon-div">
+                      <i class="fa--search fa fa-search" aria-hidden="true"></i>
+                    </div>
+                    <!-- Search Content -->
+                    <div class="search-content-div">
+                      <input 
+                          type="text" 
+                          class="search-content-input" 
+                          id="search-input" 
+                          placeholder="Search E-commerce App"
+                          title="Type in a product name">
+                          <ul id="suggestions-list">
+                          </ul>     
+                    </div>
+                    <!-- Times Icon -->
+                    <div class="search-times-icon">
+                      <i class="fa--times fa fa-times" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Buttons -->
+            <div class="header-btns-div">
+              <!-- Btn 1 -->
+              <div class="header-btns--div">
+                <a href="../html/customer.html" class="header-btns-a">
+                  <div class="header-btns-a-div">
+                    <span>Customer</span>
+                  </div>
+                </a>
+              </div>
+              <!-- Btn 2 -->
+              <div class="header-btns--div">
+                <a href="../html/seller.html" class="header-btns-a">
+                  <div class="header-btns-a-div">
+                    <span>Seller</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <!-- Products Container -->
+        <div class="products-container">                
+        </div>
+
+        <div id="totalPrice"> 
+        </div>
+      </div>
+    </main>
+
+    
+  </div>
+
+         
+  <!-- <div class="container">
+    <div class="allProducts"> 
+  </div> -->
+
+ 
+</div>
+<!-- <div id="totalPrice"> 
+</div> -->
+  
+
+<script src="../Assets/js/cart.js"></script>
+</body>
+</html>
