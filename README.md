@@ -1,4 +1,4 @@
-# Ecommerce T3
+# Ecommerce App
 ## By: Waed Hafitha.
 
 <br><br>
